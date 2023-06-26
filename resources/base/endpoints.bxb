@@ -1,0 +1,18 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetReminder){
+      accepted-inputs ()
+      local-endpoint (GetReminder.js)
+      authorization {
+        user
+      }
+    }
+    action-endpoint (PostReminder){
+      accepted-inputs (title)
+      local-endpoint (PostReminder.js)
+      authorization {
+        user
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+result-view {
+  match: Response (response)
+
+  render {
+    layout {
+      section{
+        content {
+          title-area {
+            halign (Start)
+            slot1 {
+              text {
+                value ("#{value(response.message)}")
+                style (Title_S)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

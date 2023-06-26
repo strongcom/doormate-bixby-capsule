@@ -1,0 +1,5 @@
+action (GetReminder) {
+  description (GET Reminder from server)
+  type(Search) 
+  output (Reminder)
+}

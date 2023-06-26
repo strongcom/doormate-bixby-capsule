@@ -1,0 +1,8 @@
+structure (Response) {    //구조체 컨셉의 이름
+  description (응답 모델 정의)
+  
+  property (message){   //프로퍼티의 이름
+    type(Message)     //primitive 컨셉명
+    min(Required)
+  }
+}

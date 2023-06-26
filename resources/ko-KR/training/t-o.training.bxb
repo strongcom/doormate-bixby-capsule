@@ -1,0 +1,4 @@
+train (t-oim28qotrfg7rtzwwixm4kaob) {
+  utterance ("[g:PostReminder] (문을 나설 때)[v:Out] (가스불 끄고 에어컨 끄라고)[v:Title] (말해줘)[v:Notice]")
+  last-modified (1684815030493)
+}

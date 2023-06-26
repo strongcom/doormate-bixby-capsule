@@ -1,0 +1,6 @@
+dialog (Result) {
+  match {
+    Reminder(this)
+  }
+  template("I found #{size(this)} #{concept(this)}")
+}

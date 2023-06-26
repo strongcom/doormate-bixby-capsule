@@ -1,0 +1,30 @@
+action (PostReminder) { //액션의 이름
+  type(Search) //액션의 종류 설정, 빅스비 시스템이 액션을 검색할 때 힌트를 줌. 
+  collect {
+    input (out) { 
+      type (Out) 
+      min (Required) max (One)
+    }
+    input (title) { //컨셉의 변수명
+      type (Title) //컨셉의 타입명 ex) int, string 같은
+      min (Required) max (One)
+    }
+    input (notice) { 
+      type (Notice) 
+      min (Required) max (One)
+    }
+  }
+  output (Response){
+    throws{
+      error (ErrorWhichHalts){
+        on-catch{
+          halt{
+            dialog{
+              template ("리마인더 등록에 실패했습니다.")
+            }
+          }
+        }
+      }
+    }
+  }
+}

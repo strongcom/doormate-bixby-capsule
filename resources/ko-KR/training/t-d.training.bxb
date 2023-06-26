@@ -1,0 +1,5 @@
+train (t-dlcrsxx9lkh0478fe0shu8bqm) {
+  utterance ("[g:PostReminder] (나갈 때)[v:Out] (텀블러 챙기기)[v:Title](라고 알려줘)[v:Notice]")
+  plan (Y2BlEE/Jzy/KTSxJ1StJLS4x1AtKLS7IzytOZZBGkwjILy4JSs3NzEtJLWIQRZP0yy/JTE5lEEIT9i8tYRBBEwvJLMlJZWBhYGRgYmAG0gxAFgTCAJIcAA==)
+  last-modified (1684815058018)
+}

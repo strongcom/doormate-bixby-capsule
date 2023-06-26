@@ -1,0 +1,15 @@
+result-view {
+  match: Reminder(reminder)
+
+  render {
+    list-of (reminder) {
+      where-each (item) {
+        macro (reminder-summary) {
+            param (reminder) {
+              expression (item)
+          }
+        } 
+      }
+    }
+  }
+}

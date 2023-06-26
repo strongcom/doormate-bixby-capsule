@@ -1,0 +1,8 @@
+structure (Reminder) {    //구조체 컨셉의 이름
+  description (리마인더 모델 정의)
+  
+  property (title){   //프로퍼티의 이름
+    type(Title)     //primitive 컨셉명
+    min(Required)
+  }
+}

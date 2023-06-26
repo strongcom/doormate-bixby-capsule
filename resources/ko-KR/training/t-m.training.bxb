@@ -1,0 +1,4 @@
+train (t-m5is7aah34i6h00yu3kmx1s9o) {
+  utterance ("[g:PostReminder] (외출할 때)[v:Out] (텀블러랑 맥북 충전기 챙기라고)[v:Title] (알림 해줘)[v:Notice]")
+  last-modified (1684815021031)
+}

@@ -1,0 +1,11 @@
+authorization {
+  user {
+    oauth2-authorization-code (나가기 전에 생각했나요?) {
+      authorize-endpoint (https://kauth.kakao.com/oauth/authorize?response_type=code&client_id=16e8c1aea7ae45cd759c1c85c9502c73&redirect_uri=https://doormate.test1.oauth.aibixby.com/auth/external/cb)
+      client-id (16e8c1aea7ae45cd759c1c85c9502c73)
+      client-secret-key (bixby-secret)
+      scope ()
+      token-endpoint (https://kauth.kakao.com/oauth/token)
+    }
+  }
+}
